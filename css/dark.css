@@ -1,0 +1,109 @@
+body {
+  background-color: #0e0e0e;
+  color: rgb(207, 207, 207);
+}
+.order__title {
+  color: rgb(187, 175, 175);
+  text-shadow: 1px 1px 1px black;
+}
+
+.menu__selector {
+  background-color: rgb(154, 154, 154);
+}
+.menu__column {
+  background-color: #211e1e;
+  border: 0.801676px solid #000000;
+}
+.menu__subtitle {
+  color: white;
+}
+.menu__price {
+  color: #f44a25;
+}
+.order__body {
+  display: flex;
+  padding: 15px 0px;
+  background: url(../img/order/asd.png) 0 0 no-repeat;
+  background-position: right;
+}
+.header__buy_img {
+  filter: invert(69%) sepia(9%) saturate(20%) hue-rotate(315deg) brightness(87%)
+    contrast(95%);
+}
+.header__search_img {
+  filter: invert(69%) sepia(9%) saturate(20%) hue-rotate(315deg) brightness(87%)
+    contrast(95%);
+}
+
+.header__toggler {
+}
+.header__switch {
+}
+.header__moon {
+}
+.header__sun {
+}
+
+.change-theme[data-theme="dark"] {
+  display: none;
+}
+.change-theme[data-theme="light"] {
+  display: block;
+}
+
+@media (max-width: 810px) {
+  .hamburger {
+    background: rgb(0, 0, 0);
+  }
+
+  .menuz {
+    background: black;
+
+    color: white;
+  }
+
+  .menuItem {
+    color: rgb(154, 154, 154);
+  }
+  .menuItem:hover {
+    color: #f44a25;
+  }
+}
+
+.menu__addlink {
+  background: #f44a25;
+
+  color: #000000;
+}
+
+.order__ordernow {
+  background: #f44a25;
+
+  color: #000000;
+}
+.header__loginbutton {
+  color: #000000;
+
+  background: #f44a25;
+}
+.header__loginbutton:hover {
+  background-color: #c0452a;
+}
+
+.menu__addlink:hover {
+  background-color: #c0452a;
+}
+
+.header__buy_img2 {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7381%)
+    hue-rotate(297deg) brightness(119%) contrast(100%);
+}
+.header__search_img2 {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7381%)
+    hue-rotate(297deg) brightness(119%) contrast(100%);
+}
+@media (max-width: 768px) {
+  .order__body {
+    background-position: left;
+  }
+}
